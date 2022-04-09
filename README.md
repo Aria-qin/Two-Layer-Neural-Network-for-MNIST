@@ -2,7 +2,7 @@
 Use numpy to bulid a two-layer neural network for image classification based on MNIST.
 
 ### System Architecture 
-Python 3.8, 
+Python 3.8
 
 ## Data Processing
 * The MNIST data is seperated into train set and test set in `mnist_train.csv` and `mnist_test.csv`
@@ -25,7 +25,8 @@ The args are as follows:
 * `-lr`:  `--learningrate`, learning rate 
 * `-r`: `--regularization`, L2 regularization parameter 
 * `-sa`: `--save`, 0: not save; 1: save the model. Note that if it is set to 1, this new model will be tested in testing.
-For instance, the above command will train a network with size 784x256x10, learning rates for each layer 1e-2,  and regularization lambda 1e-4.
+
+For instance, the above command will train a network with size 784x256x10, learning rates for each layer 1e-2,  and regularization lambda 1e-4 witout saving the model.
 
 
 
