@@ -38,3 +38,19 @@ Save the trained model as `mnist_model.pkl`and then
 * It will print the testing accuracy. 
 
 * Download Trained Model at https://pan.baidu.com/s/1QLIp24xQJUrKIpwHFSaOAg pw:4qo3
+
+## Results
+The best accuracy was obtained using the following configuration:
+
+* Input layer - 784 neurons
+* Hidden layer - 512 neurons
+* Output layer - 10 neurons
+* Batch size – 64
+* Epoch – 50
+* Learning rate - 0.09
+* Regularization parameter (L2):  
+* Activation in intermediate Layers – ReLu 
+* Activation in output Layer – Softmax
+* Parameter initialization – He Normalization
+* Training accuracy : 99.99%
+* Test accuracy : 98.26%
