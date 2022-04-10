@@ -5,7 +5,7 @@ Download Trained Model at https://pan.baidu.com/s/1QLIp24xQJUrKIpwHFSaOAg pw:4qo
 ### System Architecture 
 Python 3.8
 
-Main files:  `train_model.py`,  `para_tuning.py`,  `test.py`,  `mnist_train.csv`, `mnist_test.csv`
+Main files:  `train_model.py`,  `para_select.py`,  `test.py`,  `mnist_train.csv`, `mnist_test.csv`
 
 Supporting files:  `visualization.py`,  `parse.py`
 ## Data Processing
@@ -34,7 +34,7 @@ For instance, the above command will train a network with size 784x256x10, learn
 This might be time-consuming, please wait several minutes for reading the data and training the first epoch.
 
 ## Parameter Tuning
-The details of parameter tuning can ba found in `para_tuning.py`
+The details of parameter tuning can ba found in `para_select.py`
 
 ## Testing:
 * The training process will save the trained model as `mnist_model.pkl`and then 
