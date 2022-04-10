@@ -1,11 +1,3 @@
-'''
-Author: your name
-Date: 2022-04-09 13:06:32
-LastEditTime: 2022-04-10 20:15:22
-LastEditors: Please set LastEditors
-Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
-FilePath: /hw1/para_select copy.py
-'''
 from train_model import *
 
 # 初始设定中，层数为784*512*10
