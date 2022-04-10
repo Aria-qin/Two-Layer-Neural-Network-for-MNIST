@@ -7,7 +7,7 @@ Python 3.8
 
 Main files:  `train_model.py`,  `para_tuning.py`,  `test.py`,  `mnist_train.csv`, `mnist_test.csv`
 
-Supporting files:  `data_processing.py`,  `visualization.py`,  `parse.py`
+Supporting files:  `visualization.py`,  `parse.py`
 ## Data Processing
 * The MNIST data is seperated into train set and test set in `mnist_train.csv` and `mnist_test.csv`
 * It is quite slow to read in the data from the csv files. In practice, I save the data in binary format with the dump function from the pickle module, but it is too big to upload, so I just upload the csv files at   as well as the whole model.
@@ -31,7 +31,7 @@ The args are as follows:
 
 For instance, the above command will train a network with size 784x256x10, learning rates for each layer 1e-2,  and regularization lambda 1e-4.
 
-This might be time-consuming, I also provide a version of mini-batch SGD at `train_model_minibatch`, which would be quicker, the args are the same.
+This might be time-consuming, please wait several minutes for reading the data and training the first epoch.
 
 ## Parameter Tuning
 The details of parameter tuning can ba found in `para_tuning.py`
@@ -41,7 +41,7 @@ The details of parameter tuning can ba found in `para_tuning.py`
 
  `python test.py `
 
-* It will print the testing accuracy. 
+* It will print the testing accuracy. Please wait about 1 minute for reading the data from csv file.
 
 
 ## Results
@@ -56,5 +56,5 @@ The best accuracy was obtained using the following configuration:
 * Activation in intermediate Layers – ReLu 
 * Activation in output Layer – Softmax
 * Parameter initialization – He Normalization
-* Training accuracy : 99.99%
-* Test accuracy : 98.26%
+* Training accuracy : 99.87%
+* Test accuracy : 98.17%
