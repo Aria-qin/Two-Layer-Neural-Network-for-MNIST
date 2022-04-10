@@ -10,7 +10,7 @@ Main files:  `train_model.py`,  `para_tuning.py`,  `test.py`,  `mnist_train.csv`
 Supporting files:  `data_processing.py`,  `visualization.py`,  `parse.py`
 ## Data Processing
 * The MNIST data is seperated into train set and test set in `mnist_train.csv` and `mnist_test.csv`
-* It is quite slow to read in the data from the csv files. In practice, I save the data in binary format with the dump function from the pickle module, but it is too big to upload, so I just upload the csv files. I put it in the  as well as the whole model.
+* It is quite slow to read in the data from the csv files. In practice, I save the data in binary format with the dump function from the pickle module, but it is too big to upload, so I just upload the csv files at   as well as the whole model.
 * To run the code, make sure that the csv data is at `./data/`
 
 
