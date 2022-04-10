@@ -1,7 +1,7 @@
 # Two-Layer-Neural-Network-for-MNIST
 Use numpy to bulid a two-layer neural network for image classification based on MNIST.
 
-Download Trained Model at https://pan.baidu.com/s/1QLIp24xQJUrKIpwHFSaOAg pw:4qo3
+Download Trained Model at: https://pan.baidu.com/s/1cA3tq2qJR6_0FFPEIld6rA pwd: woen
 ### System Architecture 
 Python 3.8
 
