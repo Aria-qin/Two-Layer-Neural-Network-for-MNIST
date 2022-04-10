@@ -49,7 +49,6 @@ The best accuracy was obtained using the following configuration:
 * Input layer - 784 neurons
 * Hidden layer - 512 neurons
 * Output layer - 10 neurons
-* Batch size – 64
 * Epoch – 50
 * Learning rate - 0.1
 * Regularization parameter (L2):  
