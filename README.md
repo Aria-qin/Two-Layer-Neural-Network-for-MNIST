@@ -5,14 +5,13 @@ Download Trained Model at https://pan.baidu.com/s/1QLIp24xQJUrKIpwHFSaOAg pw:4qo
 ### System Architecture 
 Python 3.8
 
-Main files:  `train_model.py`,  `para_tuning.py`,  `test.py`,  `mnist_model.pkl`
+Main files:  `train_model.py`,  `para_tuning.py`,  `test.py`,  `mnist_train.csv`, `mnist_test.csv`
 
 Supporting files:  `data_processing.py`,  `visualization.py`,  `parse.py`
 ## Data Processing
 * The MNIST data is seperated into train set and test set in `mnist_train.csv` and `mnist_test.csv`
-* It is quite slow to read in the data from the csv files. We save the data in binary format with the dump function from the pickle module.
-* Be sure that the dumped data `pickled_mnist.pkl` is at:
-`./data/pickled_mnist.pkl`
+* It is quite slow to read in the data from the csv files. In practice, I save the data in binary format with the dump function from the pickle module, but it is too big to upload, so I just upload the csv files. I put it in the  as well as the whole model.
+* To run the code, make sure that the csv data is at `./data/`
 
 
 ## Training:
@@ -31,6 +30,8 @@ The args are as follows:
 
 
 For instance, the above command will train a network with size 784x256x10, learning rates for each layer 1e-2,  and regularization lambda 1e-4.
+
+This might be time-consuming, I also provide a version of mini-batch SGD at `train_model_minibatch`, which would be quicker, the args are the same.
 
 ## Parameter Tuning
 The details of parameter tuning can ba found in `para_tuning.py`
