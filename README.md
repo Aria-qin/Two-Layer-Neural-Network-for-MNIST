@@ -47,14 +47,14 @@ The details of parameter tuning can ba found in `para_select.py`
 ## Results
 The best accuracy was obtained using the following configuration:
 
-* Input layer - 784 neurons
-* Hidden layer - 512 neurons
-* Output layer - 10 neurons
-* Epoch – 50
-* Learning rate - 0.1
-* Regularization parameter (L2):  
-* Activation in intermediate Layers – ReLu 
-* Activation in output Layer – Softmax
-* Parameter initialization – He Normalization
+* Input layer: 784 neurons
+* Hidden layer: 512 neurons
+* Output layer: 10 neurons
+* Epoch: 50
+* Learning rate: 0.1
+* Regularization parameter (L2):  1e-4
+* Activation in intermediate Layers: ReLu 
+* Activation in output Layer: Softmax
+* Parameter initialization: He Normalization
 * Training accuracy : 99.87%
 * Test accuracy : 98.17%
